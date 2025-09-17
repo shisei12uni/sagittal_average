@@ -5,6 +5,18 @@ build-backend = "hatchling.build"
 [project]
 name = "sagittal_average"
 version = "0.1.0"
+dependencies = [
+  "numpy",
+]
+
+[project.scripts]
+sagittal_average_run = "sagittal_average.command:process"
+
+[project.optional-dependencies]
+dev = [
+  "pytest >= 8",
+  "pytest-cov",
+  ]
 
 [tool.hatch.build.targets.wheel]
 packages = [
