@@ -4,7 +4,28 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sagittal_average"
+description = "Calculate the averages through the sagittal plane."
 version = "0.1.0"
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { file = "LICENSE" }
+license-expression = "BSD-3-clause"
+authors = [
+  {name = "NAME", email = "EMAIL@EMAIL"},
+]
+maintainers = [
+  {name = "NAME2", email = "EMAIL2@EMAIL",}
+  ]
+classifiers = [
+  # some ratings about how mature the project is
+  # indicate who project is for
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Bio-Informatics",
+  # Pick license
+  # Specify python version supported
+  "Programming Language :: Python :: 3.12",
+  # TO AVOID PiPY UPLOADS!
+  "Private :: Do Not Upload",
+]
 dependencies = [
   "numpy",
 ]
@@ -22,3 +43,8 @@ dev = [
 packages = [
   "src/sagittal_average",
 ]
+
+# [project.urls]
+# Documentation = "link"
+# Repository = "link"
+# Issues = "link"
