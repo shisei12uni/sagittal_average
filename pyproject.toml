@@ -13,7 +13,7 @@ authors = [
   {name = "NAME", email = "EMAIL@EMAIL"},
 ]
 maintainers = [
-  {name = "NAME2", email = "EMAIL2@EMAIL",}
+  {name = "NAME2", email = "EMAIL2@EMAIL"},
   ]
 classifiers = [
   # some ratings about how mature the project is
